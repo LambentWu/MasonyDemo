@@ -71,4 +71,7 @@ UIImageView+_5.m
 UIImageView+dd.h
 UIImageView+dd.m
 
+UIImageView+ew.h
+UIImageView+ew.m
+
 iOSInjectionProject/
