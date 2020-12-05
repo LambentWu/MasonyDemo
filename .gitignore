@@ -65,4 +65,10 @@ fastlane/test_output
 # After new code Injection tools there's a generated folder /iOSInjectionProject
 # https://github.com/johnno1962/injectionforxcode
 
+UIImageView+_5.h
+UIImageView+_5.m
+
+UIImageView+dd.h
+UIImageView+dd.m
+
 iOSInjectionProject/

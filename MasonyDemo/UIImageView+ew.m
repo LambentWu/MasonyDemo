@@ -6,6 +6,7 @@
 //
 
 #import "UIImageView+ew.h"
+#import "UIImageView+sdimage.h"
 
 @implementation UIImageView (ew)
 
