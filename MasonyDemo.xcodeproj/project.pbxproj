@@ -10,6 +10,7 @@
 		0A94CEED5C18D5E3E78B7978AAF65670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3EBB80CA5C593A10C62FE137EA24E9 /* LaunchScreen.storyboard */; };
 		0C51B30AEC651F22E3EE6D3A6B2DEBB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C80618F1AA8CF1B8E962ED7EA3C4E6F /* main.m */; };
 		0EB02E7343CF861394A8A0A697772624 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A538A9A1880B96AEE63C0ADFD5505D4 /* ViewController.m */; };
+		2595B6C2257C2554003F0F36 /* UIImageView+ww.m in Sources */ = {isa = PBXBuildFile; fileRef = 2595B6C1257C2554003F0F36 /* UIImageView+ww.m */; };
 		5A67323C1DFE40EF81C13C90F9D0B7C1 /* UIImageView+dd.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D91EAB51F1A2083271FF5AA8D95E9E /* UIImageView+dd.m */; };
 		5F415D849E8520793184715659DB45CE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D906D430354C9900289980642C327EE9 /* SceneDelegate.m */; };
 		653963BD6F384756E09D8AA2CE1B1A18 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B168C143F18F4992B31EFA18033025F /* TableViewController.m */; };
@@ -27,6 +28,8 @@
 		0ADF4C37959E0CBEBEE3DAD13CAE62BB /* Pods_MasonyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasonyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18483314BC41666BD4CFB9C2934E8735 /* UIImageView+ew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ew.m"; sourceTree = "<group>"; };
 		1B2ABEB3F4A46DE7353234FB997937BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2595B6C0257C2554003F0F36 /* UIImageView+ww.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ww.h"; sourceTree = "<group>"; };
+		2595B6C1257C2554003F0F36 /* UIImageView+ww.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ww.m"; sourceTree = "<group>"; };
 		28BD8CDA2317D2284617910590EB694E /* UIImageView+_5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+_5.m"; sourceTree = "<group>"; };
 		2E37E17729AEF5F398736EC992E7F61F /* UIImageView+w.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+w.h"; sourceTree = "<group>"; };
 		3AABBE01CAAE4B0EC924DD408676446B /* UIImageView+ew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ew.h"; sourceTree = "<group>"; };
@@ -73,12 +76,21 @@
 			);
 			sourceTree = "<group>";
 		};
-		C317D8EC564CB269BF3F12C1178E8BDE /* Products */ = {
+		2B57895A5F8E67732C87615F8DBBFFA9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F51A9B155BFAD41C84486AD07E59D358 /* MasonyDemo.app */,
+				C9B822B676A3CB3BFEF748FE86C73D71 /* Pods-MasonyDemo.debug.xcconfig */,
+				E0BDE632773D5028FD2EEA2DF52FA961 /* Pods-MasonyDemo.release.xcconfig */,
 			);
-			name = Products;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E51ECBADF788A0CE1428CC5BB30AB89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ADF4C37959E0CBEBEE3DAD13CAE62BB /* Pods_MasonyDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7838B5A3C15E3104A832068AB2079ED5 /* MasonyDemo */ = {
@@ -106,25 +118,18 @@
 				D38E9CEF7CFCD84A3EE72062783984B1 /* ViewController.h */,
 				0A538A9A1880B96AEE63C0ADFD5505D4 /* ViewController.m */,
 				5C80618F1AA8CF1B8E962ED7EA3C4E6F /* main.m */,
+				2595B6C0257C2554003F0F36 /* UIImageView+ww.h */,
+				2595B6C1257C2554003F0F36 /* UIImageView+ww.m */,
 			);
 			path = MasonyDemo;
 			sourceTree = "<group>";
 		};
-		5E51ECBADF788A0CE1428CC5BB30AB89 /* Frameworks */ = {
+		C317D8EC564CB269BF3F12C1178E8BDE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0ADF4C37959E0CBEBEE3DAD13CAE62BB /* Pods_MasonyDemo.framework */,
+				F51A9B155BFAD41C84486AD07E59D358 /* MasonyDemo.app */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2B57895A5F8E67732C87615F8DBBFFA9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C9B822B676A3CB3BFEF748FE86C73D71 /* Pods-MasonyDemo.debug.xcconfig */,
-				E0BDE632773D5028FD2EEA2DF52FA961 /* Pods-MasonyDemo.release.xcconfig */,
-			);
-			path = Pods;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2595B6C2257C2554003F0F36 /* UIImageView+ww.m in Sources */,
 				93A10DB0EDBA82E7C79722BE536DFE62 /* AppDelegate.m in Sources */,
 				5F415D849E8520793184715659DB45CE /* SceneDelegate.m in Sources */,
 				653963BD6F384756E09D8AA2CE1B1A18 /* TableViewController.m in Sources */,
@@ -255,14 +261,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D7F82B0A767751B44C0D17AE6434D608 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				76A9FA855BD6714B9BC29A8D6A2FF365 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A3EBB80CA5C593A10C62FE137EA24E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -271,9 +269,35 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		D7F82B0A767751B44C0D17AE6434D608 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A9FA855BD6714B9BC29A8D6A2FF365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9AE8190CC4440B05FF83B9BE595150CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B822B676A3CB3BFEF748FE86C73D71 /* Pods-MasonyDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MasonyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lambentwu.MasonyDemo.MasonyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		D619B9202250881C1EFCEFEE572EADC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -386,24 +410,6 @@
 			};
 			name = Release;
 		};
-		9AE8190CC4440B05FF83B9BE595150CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9B822B676A3CB3BFEF748FE86C73D71 /* Pods-MasonyDemo.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MasonyDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lambentwu.MasonyDemo.MasonyDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		F8AB2C98C3939A817FE3A76665C9ED55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0BDE632773D5028FD2EEA2DF52FA961 /* Pods-MasonyDemo.release.xcconfig */;
@@ -425,20 +431,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83E72ED37A96CC26C832EC6FDA7261D7 /* Build configuration list for PBXProject "MasonyDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D619B9202250881C1EFCEFEE572EADC5 /* Debug */,
-				ED904B148B0F1A3EB03CFE2D4C12ED7A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		40DF7D284BE281BAE425DEC531D88E75 /* Build configuration list for PBXNativeTarget "MasonyDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9AE8190CC4440B05FF83B9BE595150CF /* Debug */,
 				F8AB2C98C3939A817FE3A76665C9ED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E72ED37A96CC26C832EC6FDA7261D7 /* Build configuration list for PBXProject "MasonyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D619B9202250881C1EFCEFEE572EADC5 /* Debug */,
+				ED904B148B0F1A3EB03CFE2D4C12ED7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
