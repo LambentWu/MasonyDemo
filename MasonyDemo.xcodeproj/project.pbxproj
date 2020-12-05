@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,6 +30,7 @@
 		25363F6025740B4400DA6FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25363F6225740B4400DA6FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25363F6325740B4400DA6FCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2595B6AA257C0086003F0F36 /* UIImageView+sdimage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+sdimage.h"; sourceTree = "<group>"; };
 		49EE7151F2CB1DE38DB47493 /* Pods_MasonyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasonyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD817396D9277AE1C9DA4A8 /* Pods-MasonyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonyDemo.debug.xcconfig"; path = "Target Support Files/Pods-MasonyDemo/Pods-MasonyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C40DA9DA7815C2F3BF73CD6E /* Pods-MasonyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonyDemo.release.xcconfig"; path = "Target Support Files/Pods-MasonyDemo/Pods-MasonyDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 				25363F5525740B4100DA6FCC /* SceneDelegate.m */,
 				25363F5725740B4100DA6FCC /* ViewController.h */,
 				25363F5825740B4100DA6FCC /* ViewController.m */,
+				2595B6AA257C0086003F0F36 /* UIImageView+sdimage.h */,
 				25363F5A25740B4100DA6FCC /* Main.storyboard */,
 				25363F5D25740B4400DA6FCC /* Assets.xcassets */,
 				25363F5F25740B4400DA6FCC /* LaunchScreen.storyboard */,
@@ -97,7 +99,6 @@
 				ADD817396D9277AE1C9DA4A8 /* Pods-MasonyDemo.debug.xcconfig */,
 				C40DA9DA7815C2F3BF73CD6E /* Pods-MasonyDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
