@@ -15,6 +15,7 @@
 		25363F6125740B4400DA6FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25363F5F25740B4400DA6FCC /* LaunchScreen.storyboard */; };
 		25363F6425740B4400DA6FCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25363F6325740B4400DA6FCC /* main.m */; };
 		2595B6AD257C01BD003F0F36 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2595B6AC257C01BD003F0F36 /* TableViewController.m */; };
+		2595B6B1257C076B003F0F36 /* UIImageView+ew.m in Sources */ = {isa = PBXBuildFile; fileRef = 2595B6B0257C076B003F0F36 /* UIImageView+ew.m */; };
 		5207D9C8052601A6024AECC8 /* Pods_MasonyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EE7151F2CB1DE38DB47493 /* Pods_MasonyDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 		2595B6AA257C0086003F0F36 /* UIImageView+sdimage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+sdimage.h"; sourceTree = "<group>"; };
 		2595B6AB257C01BD003F0F36 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		2595B6AC257C01BD003F0F36 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		2595B6AF257C076B003F0F36 /* UIImageView+ew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ew.h"; sourceTree = "<group>"; };
+		2595B6B0257C076B003F0F36 /* UIImageView+ew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ew.m"; sourceTree = "<group>"; };
 		49EE7151F2CB1DE38DB47493 /* Pods_MasonyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasonyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADD817396D9277AE1C9DA4A8 /* Pods-MasonyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonyDemo.debug.xcconfig"; path = "Target Support Files/Pods-MasonyDemo/Pods-MasonyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C40DA9DA7815C2F3BF73CD6E /* Pods-MasonyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonyDemo.release.xcconfig"; path = "Target Support Files/Pods-MasonyDemo/Pods-MasonyDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 			children = (
 				25363F5125740B4100DA6FCC /* AppDelegate.h */,
 				25363F5225740B4100DA6FCC /* AppDelegate.m */,
+				2595B6AF257C076B003F0F36 /* UIImageView+ew.h */,
+				2595B6B0257C076B003F0F36 /* UIImageView+ew.m */,
 				25363F5425740B4100DA6FCC /* SceneDelegate.h */,
 				25363F5525740B4100DA6FCC /* SceneDelegate.m */,
 				25363F5725740B4100DA6FCC /* ViewController.h */,
@@ -224,6 +229,7 @@
 				25363F5325740B4100DA6FCC /* AppDelegate.m in Sources */,
 				25363F6425740B4400DA6FCC /* main.m in Sources */,
 				2595B6AD257C01BD003F0F36 /* TableViewController.m in Sources */,
+				2595B6B1257C076B003F0F36 /* UIImageView+ew.m in Sources */,
 				25363F5625740B4100DA6FCC /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
