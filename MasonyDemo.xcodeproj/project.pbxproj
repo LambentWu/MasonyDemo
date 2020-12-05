@@ -10,8 +10,7 @@
 		0A94CEED5C18D5E3E78B7978AAF65670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3EBB80CA5C593A10C62FE137EA24E9 /* LaunchScreen.storyboard */; };
 		0C51B30AEC651F22E3EE6D3A6B2DEBB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C80618F1AA8CF1B8E962ED7EA3C4E6F /* main.m */; };
 		0EB02E7343CF861394A8A0A697772624 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A538A9A1880B96AEE63C0ADFD5505D4 /* ViewController.m */; };
-		2595B6C2257C2554003F0F36 /* UIImageView+ww.m in Sources */ = {isa = PBXBuildFile; fileRef = 2595B6C1257C2554003F0F36 /* UIImageView+ww.m */; };
-		2595B6C6257C271F003F0F36 /* UIImageView+ff.m in Sources */ = {isa = PBXBuildFile; fileRef = 2595B6C5257C271F003F0F36 /* UIImageView+ff.m */; };
+		3E4D2511FA746427FF6EF718398C7961 /* UIImageView+ww.m in Sources */ = {isa = PBXBuildFile; fileRef = E51E9A695F02CFC0FC951297AD251517 /* UIImageView+ww.m */; };
 		5A67323C1DFE40EF81C13C90F9D0B7C1 /* UIImageView+dd.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D91EAB51F1A2083271FF5AA8D95E9E /* UIImageView+dd.m */; };
 		5F415D849E8520793184715659DB45CE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D906D430354C9900289980642C327EE9 /* SceneDelegate.m */; };
 		653963BD6F384756E09D8AA2CE1B1A18 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B168C143F18F4992B31EFA18033025F /* TableViewController.m */; };
@@ -20,6 +19,7 @@
 		93A10DB0EDBA82E7C79722BE536DFE62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6567751C0202D402B8BD4C492B9A8AA7 /* AppDelegate.m */; };
 		959CFDD222989F41274729C338DA78E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F82B0A767751B44C0D17AE6434D608 /* Main.storyboard */; };
 		9D02701BF2FDB5C57EC2D9E0B97B4856 /* Pods_MasonyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADF4C37959E0CBEBEE3DAD13CAE62BB /* Pods_MasonyDemo.framework */; };
+		A12F02E7D2E143B5D8D849885C1432D0 /* UIImageView+ff.m in Sources */ = {isa = PBXBuildFile; fileRef = FC79C03D1D665EA8C3F4A3C81DFE9D76 /* UIImageView+ff.m */; };
 		BD978E02B88937FE802F0BE654AB388E /* UIImageView+ew.m in Sources */ = {isa = PBXBuildFile; fileRef = 18483314BC41666BD4CFB9C2934E8735 /* UIImageView+ew.m */; };
 		FF25072D74BD33751589BDCB48CEDE57 /* UIImageView+w.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1C2FFE2C13F98573755C463182761 /* UIImageView+w.m */; };
 /* End PBXBuildFile section */
@@ -29,13 +29,10 @@
 		0ADF4C37959E0CBEBEE3DAD13CAE62BB /* Pods_MasonyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasonyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18483314BC41666BD4CFB9C2934E8735 /* UIImageView+ew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ew.m"; sourceTree = "<group>"; };
 		1B2ABEB3F4A46DE7353234FB997937BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2595B6C0257C2554003F0F36 /* UIImageView+ww.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ww.h"; sourceTree = "<group>"; };
-		2595B6C1257C2554003F0F36 /* UIImageView+ww.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ww.m"; sourceTree = "<group>"; };
-		2595B6C4257C271F003F0F36 /* UIImageView+ff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ff.h"; sourceTree = "<group>"; };
-		2595B6C5257C271F003F0F36 /* UIImageView+ff.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ff.m"; sourceTree = "<group>"; };
 		28BD8CDA2317D2284617910590EB694E /* UIImageView+_5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+_5.m"; sourceTree = "<group>"; };
 		2E37E17729AEF5F398736EC992E7F61F /* UIImageView+w.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+w.h"; sourceTree = "<group>"; };
 		3AABBE01CAAE4B0EC924DD408676446B /* UIImageView+ew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ew.h"; sourceTree = "<group>"; };
+		4003557E6335E2F785EC285182E3E3CC /* UIImageView+ff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ff.h"; sourceTree = "<group>"; };
 		422F8CFB5180DA7B945649668FDE915B /* UIImageView+_5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+_5.h"; sourceTree = "<group>"; };
 		554CEFCA0886424270BE25BA23A41A02 /* UIImageView+dd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+dd.h"; sourceTree = "<group>"; };
 		5B168C143F18F4992B31EFA18033025F /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
@@ -54,7 +51,10 @@
 		D906D430354C9900289980642C327EE9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		E068987F0DF1BBCE2685622755F78CFF /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		E0BDE632773D5028FD2EEA2DF52FA961 /* Pods-MasonyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonyDemo.release.xcconfig"; path = "Target Support Files/Pods-MasonyDemo/Pods-MasonyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E51E9A695F02CFC0FC951297AD251517 /* UIImageView+ww.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ww.m"; sourceTree = "<group>"; };
 		F51A9B155BFAD41C84486AD07E59D358 /* MasonyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC79C03D1D665EA8C3F4A3C81DFE9D76 /* UIImageView+ff.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ff.m"; sourceTree = "<group>"; };
+		FC7FFF2E7456E5DC558B718BC12C6DB3 /* UIImageView+ww.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ww.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,16 +115,16 @@
 				B6D91EAB51F1A2083271FF5AA8D95E9E /* UIImageView+dd.m */,
 				3AABBE01CAAE4B0EC924DD408676446B /* UIImageView+ew.h */,
 				18483314BC41666BD4CFB9C2934E8735 /* UIImageView+ew.m */,
+				4003557E6335E2F785EC285182E3E3CC /* UIImageView+ff.h */,
+				FC79C03D1D665EA8C3F4A3C81DFE9D76 /* UIImageView+ff.m */,
 				B7618257F20ADE7D7CAFC6C9A65B88B6 /* UIImageView+sdimage.h */,
 				2E37E17729AEF5F398736EC992E7F61F /* UIImageView+w.h */,
 				5EE1C2FFE2C13F98573755C463182761 /* UIImageView+w.m */,
+				FC7FFF2E7456E5DC558B718BC12C6DB3 /* UIImageView+ww.h */,
+				E51E9A695F02CFC0FC951297AD251517 /* UIImageView+ww.m */,
 				D38E9CEF7CFCD84A3EE72062783984B1 /* ViewController.h */,
 				0A538A9A1880B96AEE63C0ADFD5505D4 /* ViewController.m */,
 				5C80618F1AA8CF1B8E962ED7EA3C4E6F /* main.m */,
-				2595B6C0257C2554003F0F36 /* UIImageView+ww.h */,
-				2595B6C1257C2554003F0F36 /* UIImageView+ww.m */,
-				2595B6C4257C271F003F0F36 /* UIImageView+ff.h */,
-				2595B6C5257C271F003F0F36 /* UIImageView+ff.m */,
 			);
 			path = MasonyDemo;
 			sourceTree = "<group>";
@@ -250,15 +250,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2595B6C2257C2554003F0F36 /* UIImageView+ww.m in Sources */,
 				93A10DB0EDBA82E7C79722BE536DFE62 /* AppDelegate.m in Sources */,
 				5F415D849E8520793184715659DB45CE /* SceneDelegate.m in Sources */,
-				2595B6C6257C271F003F0F36 /* UIImageView+ff.m in Sources */,
 				653963BD6F384756E09D8AA2CE1B1A18 /* TableViewController.m in Sources */,
 				88116AF1CE8F9F2AF6B8A85A034B96CB /* UIImageView+_5.m in Sources */,
 				5A67323C1DFE40EF81C13C90F9D0B7C1 /* UIImageView+dd.m in Sources */,
 				BD978E02B88937FE802F0BE654AB388E /* UIImageView+ew.m in Sources */,
+				A12F02E7D2E143B5D8D849885C1432D0 /* UIImageView+ff.m in Sources */,
 				FF25072D74BD33751589BDCB48CEDE57 /* UIImageView+w.m in Sources */,
+				3E4D2511FA746427FF6EF718398C7961 /* UIImageView+ww.m in Sources */,
 				0EB02E7343CF861394A8A0A697772624 /* ViewController.m in Sources */,
 				0C51B30AEC651F22E3EE6D3A6B2DEBB6 /* main.m in Sources */,
 			);
