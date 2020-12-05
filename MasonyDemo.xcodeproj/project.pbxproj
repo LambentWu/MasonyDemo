@@ -7,122 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25363F5325740B4100DA6FCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25363F5225740B4100DA6FCC /* AppDelegate.m */; };
-		25363F5625740B4100DA6FCC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25363F5525740B4100DA6FCC /* SceneDelegate.m */; };
-		25363F5925740B4100DA6FCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25363F5825740B4100DA6FCC /* ViewController.m */; };
-		25363F5C25740B4100DA6FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25363F5A25740B4100DA6FCC /* Main.storyboard */; };
-		25363F5E25740B4400DA6FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25363F5D25740B4400DA6FCC /* Assets.xcassets */; };
-		25363F6125740B4400DA6FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25363F5F25740B4400DA6FCC /* LaunchScreen.storyboard */; };
-		25363F6425740B4400DA6FCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25363F6325740B4400DA6FCC /* main.m */; };
-		2595B6AD257C01BD003F0F36 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2595B6AC257C01BD003F0F36 /* TableViewController.m */; };
-		2595B6B1257C076B003F0F36 /* UIImageView+ew.m in Sources */ = {isa = PBXBuildFile; fileRef = 2595B6B0257C076B003F0F36 /* UIImageView+ew.m */; };
-		2595B6B5257C0ADB003F0F36 /* UIImageView+_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2595B6B4257C0ADB003F0F36 /* UIImageView+_5.m */; };
-		2595B6B9257C0C52003F0F36 /* UIImageView+dd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2595B6B8257C0C52003F0F36 /* UIImageView+dd.m */; };
-		2595B6BD257C0FF5003F0F36 /* UIImageView+w.m in Sources */ = {isa = PBXBuildFile; fileRef = 2595B6BC257C0FF5003F0F36 /* UIImageView+w.m */; };
-		5207D9C8052601A6024AECC8 /* Pods_MasonyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EE7151F2CB1DE38DB47493 /* Pods_MasonyDemo.framework */; };
+		0A94CEED5C18D5E3E78B7978AAF65670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3EBB80CA5C593A10C62FE137EA24E9 /* LaunchScreen.storyboard */; };
+		0C51B30AEC651F22E3EE6D3A6B2DEBB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C80618F1AA8CF1B8E962ED7EA3C4E6F /* main.m */; };
+		0EB02E7343CF861394A8A0A697772624 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A538A9A1880B96AEE63C0ADFD5505D4 /* ViewController.m */; };
+		5A67323C1DFE40EF81C13C90F9D0B7C1 /* UIImageView+dd.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D91EAB51F1A2083271FF5AA8D95E9E /* UIImageView+dd.m */; };
+		5F415D849E8520793184715659DB45CE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D906D430354C9900289980642C327EE9 /* SceneDelegate.m */; };
+		653963BD6F384756E09D8AA2CE1B1A18 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B168C143F18F4992B31EFA18033025F /* TableViewController.m */; };
+		88116AF1CE8F9F2AF6B8A85A034B96CB /* UIImageView+_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BD8CDA2317D2284617910590EB694E /* UIImageView+_5.m */; };
+		88B9B7ED9A66468F106D6A602FFB5244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B2ABEB3F4A46DE7353234FB997937BB /* Assets.xcassets */; };
+		93A10DB0EDBA82E7C79722BE536DFE62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6567751C0202D402B8BD4C492B9A8AA7 /* AppDelegate.m */; };
+		959CFDD222989F41274729C338DA78E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F82B0A767751B44C0D17AE6434D608 /* Main.storyboard */; };
+		9D02701BF2FDB5C57EC2D9E0B97B4856 /* Pods_MasonyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADF4C37959E0CBEBEE3DAD13CAE62BB /* Pods_MasonyDemo.framework */; };
+		BD978E02B88937FE802F0BE654AB388E /* UIImageView+ew.m in Sources */ = {isa = PBXBuildFile; fileRef = 18483314BC41666BD4CFB9C2934E8735 /* UIImageView+ew.m */; };
+		FF25072D74BD33751589BDCB48CEDE57 /* UIImageView+w.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1C2FFE2C13F98573755C463182761 /* UIImageView+w.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		25363F4E25740B4100DA6FCC /* MasonyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		25363F5125740B4100DA6FCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		25363F5225740B4100DA6FCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		25363F5425740B4100DA6FCC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		25363F5525740B4100DA6FCC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		25363F5725740B4100DA6FCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		25363F5825740B4100DA6FCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		25363F5B25740B4100DA6FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		25363F5D25740B4400DA6FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		25363F6025740B4400DA6FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		25363F6225740B4400DA6FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25363F6325740B4400DA6FCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2595B6AA257C0086003F0F36 /* UIImageView+sdimage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+sdimage.h"; sourceTree = "<group>"; };
-		2595B6AB257C01BD003F0F36 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		2595B6AC257C01BD003F0F36 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		2595B6AF257C076B003F0F36 /* UIImageView+ew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ew.h"; sourceTree = "<group>"; };
-		2595B6B0257C076B003F0F36 /* UIImageView+ew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ew.m"; sourceTree = "<group>"; };
-		2595B6B3257C0ADB003F0F36 /* UIImageView+_5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+_5.h"; sourceTree = "<group>"; };
-		2595B6B4257C0ADB003F0F36 /* UIImageView+_5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+_5.m"; sourceTree = "<group>"; };
-		2595B6B7257C0C52003F0F36 /* UIImageView+dd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+dd.h"; sourceTree = "<group>"; };
-		2595B6B8257C0C52003F0F36 /* UIImageView+dd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+dd.m"; sourceTree = "<group>"; };
-		2595B6BB257C0FF5003F0F36 /* UIImageView+w.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+w.h"; sourceTree = "<group>"; };
-		2595B6BC257C0FF5003F0F36 /* UIImageView+w.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+w.m"; sourceTree = "<group>"; };
-		49EE7151F2CB1DE38DB47493 /* Pods_MasonyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasonyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADD817396D9277AE1C9DA4A8 /* Pods-MasonyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonyDemo.debug.xcconfig"; path = "Target Support Files/Pods-MasonyDemo/Pods-MasonyDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		C40DA9DA7815C2F3BF73CD6E /* Pods-MasonyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonyDemo.release.xcconfig"; path = "Target Support Files/Pods-MasonyDemo/Pods-MasonyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0A538A9A1880B96AEE63C0ADFD5505D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0ADF4C37959E0CBEBEE3DAD13CAE62BB /* Pods_MasonyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasonyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18483314BC41666BD4CFB9C2934E8735 /* UIImageView+ew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ew.m"; sourceTree = "<group>"; };
+		1B2ABEB3F4A46DE7353234FB997937BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28BD8CDA2317D2284617910590EB694E /* UIImageView+_5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+_5.m"; sourceTree = "<group>"; };
+		2E37E17729AEF5F398736EC992E7F61F /* UIImageView+w.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+w.h"; sourceTree = "<group>"; };
+		3AABBE01CAAE4B0EC924DD408676446B /* UIImageView+ew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ew.h"; sourceTree = "<group>"; };
+		422F8CFB5180DA7B945649668FDE915B /* UIImageView+_5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+_5.h"; sourceTree = "<group>"; };
+		554CEFCA0886424270BE25BA23A41A02 /* UIImageView+dd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+dd.h"; sourceTree = "<group>"; };
+		5B168C143F18F4992B31EFA18033025F /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		5C80618F1AA8CF1B8E962ED7EA3C4E6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EE1C2FFE2C13F98573755C463182761 /* UIImageView+w.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+w.m"; sourceTree = "<group>"; };
+		5F83A818EC1C125F526EE2033D0035CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6567751C0202D402B8BD4C492B9A8AA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76A9FA855BD6714B9BC29A8D6A2FF365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9798C910F9CA34FCF61E29B4D99E51C6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B43FC9DB6DA3543027F3FAF35EEA6F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D91EAB51F1A2083271FF5AA8D95E9E /* UIImageView+dd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+dd.m"; sourceTree = "<group>"; };
+		B7618257F20ADE7D7CAFC6C9A65B88B6 /* UIImageView+sdimage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+sdimage.h"; sourceTree = "<group>"; };
+		C65367D912D42CC518EA05A653B02D16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9B822B676A3CB3BFEF748FE86C73D71 /* Pods-MasonyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonyDemo.debug.xcconfig"; path = "Target Support Files/Pods-MasonyDemo/Pods-MasonyDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D38E9CEF7CFCD84A3EE72062783984B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D906D430354C9900289980642C327EE9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E068987F0DF1BBCE2685622755F78CFF /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E0BDE632773D5028FD2EEA2DF52FA961 /* Pods-MasonyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasonyDemo.release.xcconfig"; path = "Target Support Files/Pods-MasonyDemo/Pods-MasonyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F51A9B155BFAD41C84486AD07E59D358 /* MasonyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		25363F4B25740B4100DA6FCC /* Frameworks */ = {
+		0D2625C5A62E543286CEC7257B239C0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5207D9C8052601A6024AECC8 /* Pods_MasonyDemo.framework in Frameworks */,
+				9D02701BF2FDB5C57EC2D9E0B97B4856 /* Pods_MasonyDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		25363F4525740B4100DA6FCC = {
+		1717548E3D8B456D8141256E4A4C20FB = {
 			isa = PBXGroup;
 			children = (
-				25363F5025740B4100DA6FCC /* MasonyDemo */,
-				25363F4F25740B4100DA6FCC /* Products */,
-				CCBFBEE752F75A8C32B3B824 /* Pods */,
-				56E5B7CE443EC84C53BF4957 /* Frameworks */,
+				5E51ECBADF788A0CE1428CC5BB30AB89 /* Frameworks */,
+				7838B5A3C15E3104A832068AB2079ED5 /* MasonyDemo */,
+				2B57895A5F8E67732C87615F8DBBFFA9 /* Pods */,
+				C317D8EC564CB269BF3F12C1178E8BDE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		25363F4F25740B4100DA6FCC /* Products */ = {
+		C317D8EC564CB269BF3F12C1178E8BDE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				25363F4E25740B4100DA6FCC /* MasonyDemo.app */,
+				F51A9B155BFAD41C84486AD07E59D358 /* MasonyDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		25363F5025740B4100DA6FCC /* MasonyDemo */ = {
+		7838B5A3C15E3104A832068AB2079ED5 /* MasonyDemo */ = {
 			isa = PBXGroup;
 			children = (
-				25363F5125740B4100DA6FCC /* AppDelegate.h */,
-				25363F5225740B4100DA6FCC /* AppDelegate.m */,
-				2595B6AF257C076B003F0F36 /* UIImageView+ew.h */,
-				2595B6B0257C076B003F0F36 /* UIImageView+ew.m */,
-				25363F5425740B4100DA6FCC /* SceneDelegate.h */,
-				25363F5525740B4100DA6FCC /* SceneDelegate.m */,
-				25363F5725740B4100DA6FCC /* ViewController.h */,
-				25363F5825740B4100DA6FCC /* ViewController.m */,
-				2595B6AA257C0086003F0F36 /* UIImageView+sdimage.h */,
-				25363F5A25740B4100DA6FCC /* Main.storyboard */,
-				25363F5D25740B4400DA6FCC /* Assets.xcassets */,
-				25363F5F25740B4400DA6FCC /* LaunchScreen.storyboard */,
-				25363F6225740B4400DA6FCC /* Info.plist */,
-				25363F6325740B4400DA6FCC /* main.m */,
-				2595B6AB257C01BD003F0F36 /* TableViewController.h */,
-				2595B6B7257C0C52003F0F36 /* UIImageView+dd.h */,
-				2595B6B8257C0C52003F0F36 /* UIImageView+dd.m */,
-				2595B6AC257C01BD003F0F36 /* TableViewController.m */,
-				2595B6B3257C0ADB003F0F36 /* UIImageView+_5.h */,
-				2595B6B4257C0ADB003F0F36 /* UIImageView+_5.m */,
-				2595B6BB257C0FF5003F0F36 /* UIImageView+w.h */,
-				2595B6BC257C0FF5003F0F36 /* UIImageView+w.m */,
+				C65367D912D42CC518EA05A653B02D16 /* AppDelegate.h */,
+				6567751C0202D402B8BD4C492B9A8AA7 /* AppDelegate.m */,
+				1B2ABEB3F4A46DE7353234FB997937BB /* Assets.xcassets */,
+				B43FC9DB6DA3543027F3FAF35EEA6F3E /* Info.plist */,
+				1A3EBB80CA5C593A10C62FE137EA24E9 /* LaunchScreen.storyboard */,
+				D7F82B0A767751B44C0D17AE6434D608 /* Main.storyboard */,
+				9798C910F9CA34FCF61E29B4D99E51C6 /* SceneDelegate.h */,
+				D906D430354C9900289980642C327EE9 /* SceneDelegate.m */,
+				E068987F0DF1BBCE2685622755F78CFF /* TableViewController.h */,
+				5B168C143F18F4992B31EFA18033025F /* TableViewController.m */,
+				422F8CFB5180DA7B945649668FDE915B /* UIImageView+_5.h */,
+				28BD8CDA2317D2284617910590EB694E /* UIImageView+_5.m */,
+				554CEFCA0886424270BE25BA23A41A02 /* UIImageView+dd.h */,
+				B6D91EAB51F1A2083271FF5AA8D95E9E /* UIImageView+dd.m */,
+				3AABBE01CAAE4B0EC924DD408676446B /* UIImageView+ew.h */,
+				18483314BC41666BD4CFB9C2934E8735 /* UIImageView+ew.m */,
+				B7618257F20ADE7D7CAFC6C9A65B88B6 /* UIImageView+sdimage.h */,
+				2E37E17729AEF5F398736EC992E7F61F /* UIImageView+w.h */,
+				5EE1C2FFE2C13F98573755C463182761 /* UIImageView+w.m */,
+				D38E9CEF7CFCD84A3EE72062783984B1 /* ViewController.h */,
+				0A538A9A1880B96AEE63C0ADFD5505D4 /* ViewController.m */,
+				5C80618F1AA8CF1B8E962ED7EA3C4E6F /* main.m */,
 			);
 			path = MasonyDemo;
 			sourceTree = "<group>";
 		};
-		56E5B7CE443EC84C53BF4957 /* Frameworks */ = {
+		5E51ECBADF788A0CE1428CC5BB30AB89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				49EE7151F2CB1DE38DB47493 /* Pods_MasonyDemo.framework */,
+				0ADF4C37959E0CBEBEE3DAD13CAE62BB /* Pods_MasonyDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CCBFBEE752F75A8C32B3B824 /* Pods */ = {
+		2B57895A5F8E67732C87615F8DBBFFA9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ADD817396D9277AE1C9DA4A8 /* Pods-MasonyDemo.debug.xcconfig */,
-				C40DA9DA7815C2F3BF73CD6E /* Pods-MasonyDemo.release.xcconfig */,
+				C9B822B676A3CB3BFEF748FE86C73D71 /* Pods-MasonyDemo.debug.xcconfig */,
+				E0BDE632773D5028FD2EEA2DF52FA961 /* Pods-MasonyDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -130,15 +130,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		25363F4D25740B4100DA6FCC /* MasonyDemo */ = {
+		4BDB6F999013EA7BDBA135DFC97E6492 /* MasonyDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25363F6725740B4400DA6FCC /* Build configuration list for PBXNativeTarget "MasonyDemo" */;
+			buildConfigurationList = 40DF7D284BE281BAE425DEC531D88E75 /* Build configuration list for PBXNativeTarget "MasonyDemo" */;
 			buildPhases = (
-				F366A9258A0A668F644DDC26 /* [CP] Check Pods Manifest.lock */,
-				25363F4A25740B4100DA6FCC /* Sources */,
-				25363F4B25740B4100DA6FCC /* Frameworks */,
-				25363F4C25740B4100DA6FCC /* Resources */,
-				BE7BA5938F222F8C6CE1BEBE /* [CP] Embed Pods Frameworks */,
+				DF3DB04E202D288DFDB96F4863A7D570 /* [CP] Check Pods Manifest.lock */,
+				F47BCF5DFB26ED54C74F6FC05F2B6BC2 /* Sources */,
+				0D2625C5A62E543286CEC7257B239C0C /* Frameworks */,
+				3C0E72ACC351FE5691B3037A176F9271 /* Resources */,
+				5A244C9846C486DB0E091EE2D306639C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,23 +146,23 @@
 			);
 			name = MasonyDemo;
 			productName = MasonyDemo;
-			productReference = 25363F4E25740B4100DA6FCC /* MasonyDemo.app */;
+			productReference = F51A9B155BFAD41C84486AD07E59D358 /* MasonyDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		25363F4625740B4100DA6FCC /* Project object */ = {
+		BD9BC675EDFB89D2D81089583023AF0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					25363F4D25740B4100DA6FCC = {
+					4BDB6F999013EA7BDBA135DFC97E6492 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
-			buildConfigurationList = 25363F4925740B4100DA6FCC /* Build configuration list for PBXProject "MasonyDemo" */;
+			buildConfigurationList = 83E72ED37A96CC26C832EC6FDA7261D7 /* Build configuration list for PBXProject "MasonyDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -170,31 +170,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 25363F4525740B4100DA6FCC;
-			productRefGroup = 25363F4F25740B4100DA6FCC /* Products */;
+			mainGroup = 1717548E3D8B456D8141256E4A4C20FB;
+			productRefGroup = C317D8EC564CB269BF3F12C1178E8BDE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				25363F4D25740B4100DA6FCC /* MasonyDemo */,
+				4BDB6F999013EA7BDBA135DFC97E6492 /* MasonyDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		25363F4C25740B4100DA6FCC /* Resources */ = {
+		3C0E72ACC351FE5691B3037A176F9271 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25363F6125740B4400DA6FCC /* LaunchScreen.storyboard in Resources */,
-				25363F5E25740B4400DA6FCC /* Assets.xcassets in Resources */,
-				25363F5C25740B4100DA6FCC /* Main.storyboard in Resources */,
+				88B9B7ED9A66468F106D6A602FFB5244 /* Assets.xcassets in Resources */,
+				0A94CEED5C18D5E3E78B7978AAF65670 /* LaunchScreen.storyboard in Resources */,
+				959CFDD222989F41274729C338DA78E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BE7BA5938F222F8C6CE1BEBE /* [CP] Embed Pods Frameworks */ = {
+		5A244C9846C486DB0E091EE2D306639C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,7 +211,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MasonyDemo/Pods-MasonyDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F366A9258A0A668F644DDC26 /* [CP] Check Pods Manifest.lock */ = {
+		DF3DB04E202D288DFDB96F4863A7D570 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -236,37 +236,37 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		25363F4A25740B4100DA6FCC /* Sources */ = {
+		F47BCF5DFB26ED54C74F6FC05F2B6BC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25363F5925740B4100DA6FCC /* ViewController.m in Sources */,
-				25363F5325740B4100DA6FCC /* AppDelegate.m in Sources */,
-				2595B6BD257C0FF5003F0F36 /* UIImageView+w.m in Sources */,
-				2595B6B9257C0C52003F0F36 /* UIImageView+dd.m in Sources */,
-				25363F6425740B4400DA6FCC /* main.m in Sources */,
-				2595B6AD257C01BD003F0F36 /* TableViewController.m in Sources */,
-				2595B6B1257C076B003F0F36 /* UIImageView+ew.m in Sources */,
-				25363F5625740B4100DA6FCC /* SceneDelegate.m in Sources */,
-				2595B6B5257C0ADB003F0F36 /* UIImageView+_5.m in Sources */,
+				93A10DB0EDBA82E7C79722BE536DFE62 /* AppDelegate.m in Sources */,
+				5F415D849E8520793184715659DB45CE /* SceneDelegate.m in Sources */,
+				653963BD6F384756E09D8AA2CE1B1A18 /* TableViewController.m in Sources */,
+				88116AF1CE8F9F2AF6B8A85A034B96CB /* UIImageView+_5.m in Sources */,
+				5A67323C1DFE40EF81C13C90F9D0B7C1 /* UIImageView+dd.m in Sources */,
+				BD978E02B88937FE802F0BE654AB388E /* UIImageView+ew.m in Sources */,
+				FF25072D74BD33751589BDCB48CEDE57 /* UIImageView+w.m in Sources */,
+				0EB02E7343CF861394A8A0A697772624 /* ViewController.m in Sources */,
+				0C51B30AEC651F22E3EE6D3A6B2DEBB6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		25363F5A25740B4100DA6FCC /* Main.storyboard */ = {
+		D7F82B0A767751B44C0D17AE6434D608 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				25363F5B25740B4100DA6FCC /* Base */,
+				76A9FA855BD6714B9BC29A8D6A2FF365 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		25363F5F25740B4400DA6FCC /* LaunchScreen.storyboard */ = {
+		1A3EBB80CA5C593A10C62FE137EA24E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				25363F6025740B4400DA6FCC /* Base */,
+				5F83A818EC1C125F526EE2033D0035CC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -274,7 +274,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		25363F6525740B4400DA6FCC /* Debug */ = {
+		D619B9202250881C1EFCEFEE572EADC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,7 +333,7 @@
 			};
 			name = Debug;
 		};
-		25363F6625740B4400DA6FCC /* Release */ = {
+		ED904B148B0F1A3EB03CFE2D4C12ED7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -386,9 +386,9 @@
 			};
 			name = Release;
 		};
-		25363F6825740B4400DA6FCC /* Debug */ = {
+		9AE8190CC4440B05FF83B9BE595150CF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADD817396D9277AE1C9DA4A8 /* Pods-MasonyDemo.debug.xcconfig */;
+			baseConfigurationReference = C9B822B676A3CB3BFEF748FE86C73D71 /* Pods-MasonyDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -404,9 +404,9 @@
 			};
 			name = Debug;
 		};
-		25363F6925740B4400DA6FCC /* Release */ = {
+		F8AB2C98C3939A817FE3A76665C9ED55 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C40DA9DA7815C2F3BF73CD6E /* Pods-MasonyDemo.release.xcconfig */;
+			baseConfigurationReference = E0BDE632773D5028FD2EEA2DF52FA961 /* Pods-MasonyDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -425,25 +425,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25363F4925740B4100DA6FCC /* Build configuration list for PBXProject "MasonyDemo" */ = {
+		83E72ED37A96CC26C832EC6FDA7261D7 /* Build configuration list for PBXProject "MasonyDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25363F6525740B4400DA6FCC /* Debug */,
-				25363F6625740B4400DA6FCC /* Release */,
+				D619B9202250881C1EFCEFEE572EADC5 /* Debug */,
+				ED904B148B0F1A3EB03CFE2D4C12ED7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		25363F6725740B4400DA6FCC /* Build configuration list for PBXNativeTarget "MasonyDemo" */ = {
+		40DF7D284BE281BAE425DEC531D88E75 /* Build configuration list for PBXNativeTarget "MasonyDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25363F6825740B4400DA6FCC /* Debug */,
-				25363F6925740B4400DA6FCC /* Release */,
+				9AE8190CC4440B05FF83B9BE595150CF /* Debug */,
+				F8AB2C98C3939A817FE3A76665C9ED55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 25363F4625740B4100DA6FCC /* Project object */;
+	rootObject = BD9BC675EDFB89D2D81089583023AF0B /* Project object */;
 }
