@@ -11,6 +11,7 @@
 		0C51B30AEC651F22E3EE6D3A6B2DEBB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C80618F1AA8CF1B8E962ED7EA3C4E6F /* main.m */; };
 		0EB02E7343CF861394A8A0A697772624 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A538A9A1880B96AEE63C0ADFD5505D4 /* ViewController.m */; };
 		2595B6C2257C2554003F0F36 /* UIImageView+ww.m in Sources */ = {isa = PBXBuildFile; fileRef = 2595B6C1257C2554003F0F36 /* UIImageView+ww.m */; };
+		2595B6C6257C271F003F0F36 /* UIImageView+ff.m in Sources */ = {isa = PBXBuildFile; fileRef = 2595B6C5257C271F003F0F36 /* UIImageView+ff.m */; };
 		5A67323C1DFE40EF81C13C90F9D0B7C1 /* UIImageView+dd.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D91EAB51F1A2083271FF5AA8D95E9E /* UIImageView+dd.m */; };
 		5F415D849E8520793184715659DB45CE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D906D430354C9900289980642C327EE9 /* SceneDelegate.m */; };
 		653963BD6F384756E09D8AA2CE1B1A18 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B168C143F18F4992B31EFA18033025F /* TableViewController.m */; };
@@ -30,6 +31,8 @@
 		1B2ABEB3F4A46DE7353234FB997937BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2595B6C0257C2554003F0F36 /* UIImageView+ww.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ww.h"; sourceTree = "<group>"; };
 		2595B6C1257C2554003F0F36 /* UIImageView+ww.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ww.m"; sourceTree = "<group>"; };
+		2595B6C4257C271F003F0F36 /* UIImageView+ff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ff.h"; sourceTree = "<group>"; };
+		2595B6C5257C271F003F0F36 /* UIImageView+ff.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ff.m"; sourceTree = "<group>"; };
 		28BD8CDA2317D2284617910590EB694E /* UIImageView+_5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+_5.m"; sourceTree = "<group>"; };
 		2E37E17729AEF5F398736EC992E7F61F /* UIImageView+w.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+w.h"; sourceTree = "<group>"; };
 		3AABBE01CAAE4B0EC924DD408676446B /* UIImageView+ew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ew.h"; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				5C80618F1AA8CF1B8E962ED7EA3C4E6F /* main.m */,
 				2595B6C0257C2554003F0F36 /* UIImageView+ww.h */,
 				2595B6C1257C2554003F0F36 /* UIImageView+ww.m */,
+				2595B6C4257C271F003F0F36 /* UIImageView+ff.h */,
+				2595B6C5257C271F003F0F36 /* UIImageView+ff.m */,
 			);
 			path = MasonyDemo;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 				2595B6C2257C2554003F0F36 /* UIImageView+ww.m in Sources */,
 				93A10DB0EDBA82E7C79722BE536DFE62 /* AppDelegate.m in Sources */,
 				5F415D849E8520793184715659DB45CE /* SceneDelegate.m in Sources */,
+				2595B6C6257C271F003F0F36 /* UIImageView+ff.m in Sources */,
 				653963BD6F384756E09D8AA2CE1B1A18 /* TableViewController.m in Sources */,
 				88116AF1CE8F9F2AF6B8A85A034B96CB /* UIImageView+_5.m in Sources */,
 				5A67323C1DFE40EF81C13C90F9D0B7C1 /* UIImageView+dd.m in Sources */,
